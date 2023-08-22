@@ -25,7 +25,7 @@ app.use((_req, res, next) => {
     next();
   }),
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://frontend-six-alpha.vercel.app",
     credentials:true,
 }))  
 ));
